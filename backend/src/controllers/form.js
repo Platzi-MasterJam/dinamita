@@ -21,6 +21,7 @@ async function sendForm (data){
             glass: data.glass || false,
             iron: data.iron || false,
             paper: data.paper || false,
+            plastic: data.plastic || false,
         })
         return{
             status:200,
