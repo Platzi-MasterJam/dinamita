@@ -1,10 +1,17 @@
 import React from 'react';
 import _ from 'lodash';
+import {json} from '../../MOCK_DATA'
 
 import { htmlToReact, withPrefix, markdownify } from '../utils';
 import CtaButtons from './CtaButtons';
 
 export default class SectionFeatures extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+
+        };
+    }
     renderFeature(feature, index) {
         const image = _.get(feature, 'image');
         const imageAlt = _.get(feature, 'image_alt');
@@ -35,6 +42,15 @@ export default class SectionFeatures extends React.Component {
             </div>
         );
     }
+
+    componentDidMount() {
+        let nodo = document.querySelectorAll('.featureCustom_space-value')
+        let arrayNodo = [...nodo]
+        arrayNodo.forEach((e, index) => {
+            e.firstChild.textContent = json[index].valor
+        })
+    }
+
 
     render() {
         const section = _.get(this.props, 'section');

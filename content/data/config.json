@@ -26,12 +26,11 @@
                 "type": "footer_text",
                 "image": "images/logo-alt.svg",
                 "image_url": "/",
-                "image_alt": "Footer logo",
-                "content": "Stackbit theme demo"
+                "image_alt": "Footer logo"
             },
             {
                 "type": "footer_nav",
-                "title": "Company",
+                "title": "Nosotros",
                 "nav_links": [
                     {
                         "label": "About Us",
@@ -39,17 +38,7 @@
                         "style": "link"
                     },
                     {
-                        "label": "Blog",
-                        "url": "/blog",
-                        "style": "link"
-                    },
-                    {
-                        "label": "Sign Up",
-                        "url": "/signup",
-                        "style": "link"
-                    },
-                    {
-                        "label": "Contact",
+                        "label": "Solicita Servicio",
                         "url": "/contact",
                         "style": "link"
                     }
