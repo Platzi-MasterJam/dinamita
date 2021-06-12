@@ -10,7 +10,10 @@ const materials = sequelize.define('materials',{
     },
     price:{
         type:DataTypes.CHAR, allowNull: false
-    },
+    }
+},
+    {
+        freezeTableName: true,timestamps:false
 });
 
 module.exports = materials;
