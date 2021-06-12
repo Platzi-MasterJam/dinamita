@@ -7,7 +7,7 @@ sections:
     image_alt: App preview
     title: E-collect
     content: >-
-      Es el servicio delivery para reciclar y salvar el planeta.
+      Es el servicio delivery para resiclar y salvar el planeta.
       Gana dinero con nosotros. 💰
     actions:
       - label: Solicitar servicio
@@ -25,7 +25,7 @@ sections:
         valueElement: >-
           5
         content: >-
-          Es el material más sencillo para reciclar, con él se hacen periodicos, cuadernos, carteles y papel, nuevamente. 
+          Es el material más sencillo para resiclar, con él se hacen periodicos, cuadernos, carteles y papel, nuevamente. 
           Este se puede demorar en desintregrarse 365 días
       - title: Precio del Metal 🔧
         image: images/dolar.png
@@ -34,7 +34,7 @@ sections:
         valueElement: >-
           5
         content: >-
-          El reciclaje de los metales contribuye significativamente a no empeorar el entorno medioambiental actual. Al reciclar chatarra, se reduce significativamente la contaminación de agua, aire y los desechos de la minería en un 70 por ciento
+          El resiclaje de los metales contribuye significativamente a no empeorar el entorno medioambiental actual. Al reciclar chatarra, se reduce significativamente la contaminación de agua, aire y los desechos de la minería en un 70 por ciento
       - title: Precio del Vidrio 🧪
         image: images/dolar.png
         image_alt: App preview on a phone and tablet
@@ -42,7 +42,7 @@ sections:
         valueElement: >-
           5
         content: >-
-          Mediante el reciclaje se pueden convertir desechos de vidrio en materiales que servirán para la creación de nuevos productos útiles para la vida cotidiana
+          Mediante el resiclaje se pueden convertir desechos de vidrio en materiales que servirán para la creación de nuevos productos útiles para la vida cotidiana
       - title: Precio del Plastico 🎮
         image: images/dolar.png
         image_alt: App preview on a phone and tablet
@@ -83,7 +83,7 @@ sections:
         style: primary
 seo:
   title: E-collect
-  description: Una empresa de reciclaje para el futuro
+  description: Una empresa de resiclaje para el futuro
   extra:
     - name: 'og:type'
       value: website
@@ -92,7 +92,7 @@ seo:
       value: E-collect
       keyName: property
     - name: 'og:description'
-      value: Una empresa de reciclaje para el futuro
+      value: Una empresa de resiclaje para el futuro
       keyName: property
     - name: 'og:image'
       value: images/logo.svg
@@ -103,7 +103,7 @@ seo:
     - name: 'twitter:title'
       value: E-collect
     - name: 'twitter:description'
-      value: Una empresa de reciclaje para el futuro
+      value: Una empresa de resiclaje para el futuro
     - name: 'twitter:image'
       value: images/logo.svg
       relativeUrl: true

@@ -1,5 +1,5 @@
 {
-    "title": "Azimuth",
+    "title": "E-collect",
     "path_prefix": "/",
     "base_font": "nunito-sans",
     "palette": "blue",
@@ -77,7 +77,7 @@
             {
                 "type": "footer_form",
                 "title": "Subscribe",
-                "content": "Stay up to date with our latest developments.",
+                "content": "Actualizate con nosotros",
                 "form_id": "contactForm",
                 "hide_labels": true,
                 "form_fields": [
@@ -89,7 +89,7 @@
                         "is_required": true
                     }
                 ],
-                "submit_label": "Subscribe"
+                "submit_label": "Subscribir"
             }
         ],
         "has_nav": true,
@@ -105,6 +105,6 @@
                 "style": "link"
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>."
+        "content": "&copy; E-collect. All rights reserved. This Jamstack site was created with 💚 and 🍕"
     }
 }
