@@ -1,0 +1,41 @@
+{
+  "name": "e-collect",
+  "version": "1.0.0",
+  "description": "API of Eco-llect",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node",
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Platzi-MasterJam/dinamita.git"
+  },
+  "keywords": [
+    "next.js",
+    "JavaScript",
+    "SASS"
+  ],
+  "author": "\"Edwin Hernandez <Lidenbrock-ed@github.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Platzi-MasterJam/dinamita/issues"
+  },
+  "homepage": "https://github.com/Platzi-MasterJam/dinamita#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.5",
+    "@babel/node": "^7.14.5",
+    "@babel/plugin-transform-async-to-generator": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "nodemon": "^2.0.7"
+  }
+}
