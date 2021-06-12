@@ -1,0 +1,17 @@
+.featureCustom{
+    &_space{
+        display: flex!important;
+        &-img{
+            width: 50%;
+        }
+        &-value{
+            margin: auto 0px;
+            font-size: 140px;
+            color: #2c2f3b;
+            font-weight: bolder;
+            & p {
+                margin: auto 0px;
+            }
+        }
+    }
+}
