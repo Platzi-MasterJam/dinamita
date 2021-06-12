@@ -1,51 +1,56 @@
 ---
-title: Contact
+title: Contacto
 sections:
   - section_id: contact
     type: section_contact
     background: gray
-    title: Contact
+    title: Contacto
     content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus
-      tortor pretium ligula.
+     Déjanos saber que tipo de residuos aprovechables deseas suministrar y muy pronto pasaremos a recogerlos.
     form_id: contactForm
     form_fields:
       - input_type: text
         name: name
-        label: Name
+        label: Nombre
         is_required: true
       - input_type: email
         name: email
-        label: Email
+        label: Correo electrónico
         is_required: true
-      - input_type: select
-        name: subject
-        label: Subject
-        default_value: Please select
-        options:
-          - Error on the site
-          - Sponsorship
-          - Other
+      - input_type: text
+        name: address
+        label: Dirección
+        is_required: true
+      - input_type: checkbox
+        name: paper
+        label: Papel
+      - input_type: checkbox
+        name: glass
+        label: Vidrio
+      - input_type: checkbox
+        name: metal
+        label: Metal
+      - input_type: checkbox
+        name: plastico
+        label: Plástico
       - input_type: textarea
         name: message
-        label: Message
+        label: Observaciones
       - input_type: checkbox
         name: consent
         label: >-
-          I understand that this form is storing my submitted information so I
-          can be contacted.
+          Estoy de acuerdo con la política de tratamiento de datos personales.
         is_required: true
-    submit_label: Send Message
+    submit_label: Enviar
 seo:
-  title: Contact
+  title: Contacto
   description: This is the contact page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Contact
+      value: Contacto
       keyName: property
     - name: 'og:description'
       value: This is the contact page
