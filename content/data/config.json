@@ -15,7 +15,7 @@
             },
             {
                 "label": "Request Service",
-                "url": "/signup",
+                "url": "/contact",
                 "style": "primary"
             }
         ]
