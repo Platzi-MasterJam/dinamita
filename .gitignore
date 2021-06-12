@@ -96,3 +96,6 @@ out
 .sourcebit-nextjs-cache.json
 .DS_Store
 .idea
+
+# package json
+package-lock.json
