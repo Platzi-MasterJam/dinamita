@@ -11,13 +11,15 @@ export default class SectionFeatures extends React.Component {
         const title = _.get(feature, 'title');
         const content = _.get(feature, 'content');
         const actions = _.get(feature, 'actions');
+        const valueElement = _.get(feature, 'valueElement')
 
         return (
             <div key={index} className="block-item">
                 <div className="grid">
                     {image && (
-                        <div className="cell block-preview">
-                            <img src={withPrefix(image)} alt={imageAlt} />
+                        <div className="cell block-preview featureCustom_space">
+                            <img src={withPrefix(image)} alt={imageAlt} class="featureCustom_space-img" />
+                            <p className="featureCustom_space-value block-title">{markdownify(valueElement)}</p>
                         </div>
                     )}
                     <div className="cell block-content">
