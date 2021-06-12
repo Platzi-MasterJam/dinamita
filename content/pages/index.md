@@ -21,6 +21,7 @@ sections:
       - title: Precio del Papel 📰
         image: images/dolar.png
         image_alt: App preview on a phone and tablet
+        material: papel
         valueElement: >-
           5
         content: >-
@@ -29,30 +30,27 @@ sections:
       - title: Precio del Metal 🔧
         image: images/dolar.png
         image_alt: App preview on a phone and tablet
+        material: metal
         valueElement: >-
           5
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+          El reciclaje de los metales contribuye significativamente a no empeorar el entorno medioambiental actual. Al reciclar chatarra, se reduce significativamente la contaminación de agua, aire y los desechos de la minería en un 70 por ciento
       - title: Precio del Vidrio 🧪
         image: images/dolar.png
         image_alt: App preview on a phone and tablet
+        material: vidrio
         valueElement: >-
           5
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          Mediante el reciclaje se pueden convertir desechos de vidrio en materiales que servirán para la creación de nuevos productos útiles para la vida cotidiana
       - title: Precio del Plastico 🎮
         image: images/dolar.png
         image_alt: App preview on a phone and tablet
+        material: plastico
         valueElement: >-
           3
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          Todos los plásticos son reciclables, siendo importante su separación por tipo de resina. Existen 7 categorías distintas: PET, PEAD, PVC, PEBD, PP, PS
   - section_id: reviews
     type: section_reviews
     background: white
@@ -84,30 +82,30 @@ sections:
         url: /contact
         style: primary
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: E-collect
+  description: Una empresa de reciclaje para el futuro
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: E-collect
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: Una empresa de reciclaje para el futuro
       keyName: property
     - name: 'og:image'
-      value: images/hero.png
+      value: images/logo.svg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: E-collect
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: Una empresa de reciclaje para el futuro
     - name: 'twitter:image'
-      value: images/hero.png
+      value: images/logo.svg
       relativeUrl: true
 layout: landing
 ---
