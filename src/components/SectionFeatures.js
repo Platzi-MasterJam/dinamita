@@ -6,12 +6,12 @@ import { htmlToReact, withPrefix, markdownify } from '../utils';
 import CtaButtons from './CtaButtons';
 
 export default class SectionFeatures extends React.Component {
-    constructor(props) {
+/*     constructor(props) {
         super(props);
         this.state = {
 
         };
-    }
+    } */
     renderFeature(feature, index) {
         const image = _.get(feature, 'image');
         const imageAlt = _.get(feature, 'image_alt');
