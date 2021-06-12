@@ -82,30 +82,30 @@ sections:
         url: /contact
         style: primary
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: E-collect
+  description: Una empresa de reciclaje para el futuro
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: E-collect
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: Una empresa de reciclaje para el futuro
       keyName: property
     - name: 'og:image'
-      value: images/hero.png
+      value: images/logo.svg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: E-collect
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: Una empresa de reciclaje para el futuro
     - name: 'twitter:image'
-      value: images/hero.png
+      value: images/logo.svg
       relativeUrl: true
 layout: landing
 ---
