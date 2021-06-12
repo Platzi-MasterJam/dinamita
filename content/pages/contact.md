@@ -21,6 +21,9 @@ sections:
         name: address
         label: Dirección
         is_required: true
+      - input_type: text
+        name: wasteSubtitle
+        label: Selecciona el tipo de residuo que posees:
       - input_type: checkbox
         name: paper
         label: Papel
