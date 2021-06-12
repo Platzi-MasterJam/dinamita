@@ -14,22 +14,7 @@
                 "style": "link"
             },
             {
-                "label": "Features",
-                "url": "/features",
-                "style": "link"
-            },
-            {
-                "label": "Pricing",
-                "url": "/pricing",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link"
-            },
-            {
-                "label": "Sign Up",
+                "label": "Request Service",
                 "url": "/signup",
                 "style": "primary"
             }
