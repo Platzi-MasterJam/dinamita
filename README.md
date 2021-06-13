@@ -1,4 +1,4 @@
-# dinamita
+# dinamita 💥💥
 Project About environment for Paltzi MasterJam
 
 
@@ -12,3 +12,12 @@ We have person for all city, they're going to for you weste or recyclable items 
 We pay you for the items. We have cellars and to do the best recycle
 
 You anymore lose money with the service in city you and follow our
+
+## How run this app
+
+# Local Enviroment
+1. execute npm install
+2. writting down npm run dev
+
+If you want to get online access go to:
+https://e-collect.netlify.app/
