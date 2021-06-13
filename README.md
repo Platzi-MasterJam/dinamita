@@ -15,9 +15,21 @@ You anymore lose money with the service in city you and follow our
 
 ## How run this app
 
-# Local Enviroment
+### Local Enviroment
 1. execute npm install
 2. writting down npm run dev
 
 If you want to get online access go to:
 https://e-collect.netlify.app/
+## Stack's project in Frontend
+- Jamstack
+- Git
+- SASS
+- Next.js
+- netlify
+## Stack's project in Backend
+- Node.js
+- Express.js
+- AWS 
+- PostgreSQL
+- BABEL
