@@ -1,17 +1,16 @@
 # dinamita 💥💥
-Project About environment for Paltzi MasterJam
+Project About environment for Platzi MasterJam
 
 
 ## About
 
-App is best delivery for waste in big cities. You, like citizen, can earn money when you save the word.
+The app is the best for collecting waste in big cities. You as a citizen can earn money saving the world.
 
 ## How does it work?
 
-We have person for all city, they're going to for you weste or recyclable items if you need to help wiht this. You only need to come in page our and apply for a service.
-We pay you for the items. We have cellars and to do the best recycle
+We have people for each city, who will pick up waste or recyclables for you if you need to help with this. You just need to come to our page and request a service.
+We pay you for the items. We have warehouses and to make the best recycling
 
-You anymore lose money with the service in city you and follow our
 
 ## How run this app
 
